@@ -1,10 +1,6 @@
 package MooseX::Workers::Engine;
-BEGIN {
-  $MooseX::Workers::Engine::AUTHORITY = 'cpan:PERIGRIN';
-}
-{
-  $MooseX::Workers::Engine::VERSION = '0.23';
-}
+our $AUTHORITY = 'cpan:PERIGRIN';
+$MooseX::Workers::Engine::VERSION = '0.24';
 use Moose;
 use POE qw(Wheel::Run);
 use MooseX::Workers::Job ();

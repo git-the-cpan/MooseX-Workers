@@ -1,11 +1,6 @@
 package MooseX::Workers::Job;
-BEGIN {
-  $MooseX::Workers::Job::AUTHORITY = 'cpan:PERIGRIN';
-}
-{
-  $MooseX::Workers::Job::VERSION = '0.23';
-}
-
+our $AUTHORITY = 'cpan:PERIGRIN';
+$MooseX::Workers::Job::VERSION = '0.24';
 use Moose;
 use overload ();
 use Scalar::Util 'reftype';
